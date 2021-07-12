@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ol{
+    list-style-type: none;
+}
+li{
+    font-weight: bold;
+    color: gray;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+p{
+    color: rgb(179, 174, 174);
+}
+/* header */
+.header{
+    padding: 0% 7%;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3;
+}
+h1{
+    
+    text-align: center;
+
+}
+.firstpara{
+    width: 45%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.8;
+}
+.btn{
+    padding: 0.8rem 4rem 0.8rem 4rem;
+    border-radius: 10rem;
+    margin: 0.6rem;
+    border: none;
+    color: aliceblue;
+    background-color: hsl(171, 66%, 44%);
+    font-weight:bold ;
+}
+.btn-2{
+    background-color: hsl(233, 100%, 69%);
+}
+.btn:hover{
+    cursor: pointer;
+    color: lightgoldenrodyellow;
+}
+/* __________________________________________close header */
+/* __________________________________________________info */
+.info
+{
+    padding: 0% 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.secondpara{
+    width: 55%;
+    line-height: 1.7;
+    text-align: center;
+    font-weight: bold;
+}
+/* __________________________________________________close info */
+/* __________________________________________________container */
+.container{
+    display: flex;
+    height: 40rem;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 0%;
+    /* flex-wrap: wrap; */
+}
+.computer{
+    width: 90%;
+    position:relative;
+    right: 3rem;
+}
+.right{
+    /* margin: 0rem 6rem 0rem 10rem; */
+    height:39.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.card{
+    height: 9rem;
+    width: 50%;
+    line-height: 1;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.card p{
+    color: rgb(179, 174, 174);
+}
+.device{
+    padding: 3% 7%;
+    display: flex;
+    justify-content: center;
+}
+.deviceimg{
+    width: 80%;
+    
+}
+/* _______________________________________subcontainer */
+.subcontainer{
+    display: flex;
+    padding: 3% 7%;
+    height: 12rem;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subcard{
+    text-align: center;
+    width: 30%;
+}
+/* _______________________________________closesubcontainer */
+/* _______________________________________companiesr */
+.compaines{
+    display: flex;
+    padding: 3% 7%;
+    height: 5rem;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.downloadlast{
+    padding: 3% 7%;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    padding: 3% 7%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+.footer-img{
+    width: 6rem;
+}
+.About{
+    /* flex:1; */
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    height: 6rem;
+    line-height: 2;
+}
+.socialmediaicon{
+    padding: 1.5rem;
+}
+@media (max-width: 716px){
+    .header{
+        padding: 0% 7%;
+        background-image: url(images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 2;
+    }
+    h1{
+        line-height: 1.5;
+        text-align: center;
+    
+    }
+    .firstpara{
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1.8;
+    }
+    .btn{
+        padding: 0.8rem 5rem 0.8rem 5rem;
+        border-radius: 10rem;
+        margin: 1rem;
+        border: none;
+        
+    }
+    /* __________________________________________close header */
+    /* __________________________________________________info */
+    .info
+    {
+        padding: 0% 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 2;
+    }
+    h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .secondpara{
+        width: 100%;
+        line-height: 1.7;
+        text-align: center;
+        font-weight: bold;
+    }
+    /* __________________________________________________close info */
+    /* __________________________________________________container */
+    .container{
+        display: flex;
+        height: 65rem;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding: 0% 1%;
+        flex-wrap: wrap;
+    }
+    .computerimg{
+        align-self: center;
+    }
+    .computer{
+        width: 100%;
+        position:static;
+        
+        align-self: center;
+        
+    }
+    .right{
+        /* margin: 0rem 6rem 0rem 10rem; */
+        height:39rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        height: 7rem;
+        width: 90%;
+        line-height: 1.5;
+        padding-left: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .device{
+        padding: 3% 7%;
+        display: flex;
+        justify-content: center;
+    }
+    .deviceimg{
+        width: 100%;
+        
+    }
+    /* _______________________________________subcontainer */
+    .subcontainer{
+        display: flex;
+        padding: 10% 0%;
+        height: 24rem;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .subcard{
+        text-align: center;
+        width: 90%;
+    }
+    /* _______________________________________closesubcontainer */
+    /* _______________________________________companiesr */
+    .compaines{
+        display: flex;
+        padding: 3% 0%;
+        height: 40rem;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+    .sub{
+        text-align: center;
+        width: 100%;
+        
+    }
+    .downloadlast{
+        padding: 3% 7%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        padding: 3% 0%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 50rem;
+        justify-content:center;
+        align-items: center;
+    }
+    .footer-img{
+        width: 6rem;
+    }
+    .About{
+        /* flex:1; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 15rem;
+        line-height: 5;
+    }
+    .footerlist{
+        width: 100%;
+        text-align: center;
+    }
+    .socialmediaicon{
+        padding: 1.5rem;
+        
+    }
+}
